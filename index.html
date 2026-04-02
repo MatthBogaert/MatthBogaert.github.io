@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matthias Bogaert – Associate Professor of Data Analytics</title>
+  <meta name="description" content="Personal academic page of Matthias Bogaert, Associate Professor of Data Analytics at Ghent University." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <header>
+    <nav class="navbar">
+      <a class="nav-brand" href="#hero">Matthias Bogaert</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleMenu()">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#group">Research Group</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ── Hero ── -->
+  <section id="hero">
+    <div class="hero-inner">
+      <img
+        src="https://avatars.githubusercontent.com/u/50582137?v=4"
+        alt="Matthias Bogaert"
+        class="hero-photo"
+      />
+      <div class="hero-text">
+        <h1>Matthias Bogaert</h1>
+        <p class="hero-title">Associate Professor of Data Analytics</p>
+        <p class="hero-affiliation">
+          Marketing, Innovation &amp; Organization Department · Ghent University<br />
+          Visiting Professor · University of Namur<br />
+          Member · CVAMO, Flanders Make
+        </p>
+        <div class="hero-links">
+          <a href="mailto:Matthias.Bogaert@UGent.be" class="btn btn-primary">Email</a>
+          <a href="https://research.ugent.be/web/person/matthias-bogaert-0/en" target="_blank" rel="noopener" class="btn btn-outline">Research Portal</a>
+          <a href="https://scholar.google.com/citations?user=NhhYHUQAAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn-outline">Google Scholar</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/matthias-bogaert-79a28148" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://x.com/MatthBogaert" target="_blank" rel="noopener" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://github.com/MatthBogaert" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About ── -->
+  <section id="about" class="section section-light">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p>
+          I am currently working as an <strong>Associate Professor of Data Analytics</strong> at the
+          Marketing, Innovation, and Organization Department (Research Group Data Analytics) at
+          <strong>Ghent University</strong>. Besides that, I am also Visiting Professor at the
+          <strong>University of Namur</strong> and a member of the
+          <strong>CVAMO research group</strong> at Flanders Make.
+        </p>
+        <p>
+          Prior to joining Ghent University, I worked as an Assistant Professor at the
+          <strong>University of Edinburgh Business School</strong> and as a
+          Postdoctoral Researcher at <strong>KU Leuven</strong>. I studied Business Engineering
+          and received a <strong>PhD in Business Economics</strong> at Ghent University in 2018.
+        </p>
+        <p>
+          I have taught a wide range of data analytics courses ranging from basic statistics and
+          database management to advanced predictive analytics and social media &amp; web analytics.
+          My research focuses on applications of <em>descriptive</em>, <em>predictive</em> and
+          <em>prescriptive analytics</em> in social media, customer relationship management,
+          hospitality, sports, and production &amp; manufacturing. My research has been published
+          in several well-known international journals such as the
+          <em>European Journal of Operational Research</em>, <em>Machine Learning</em>,
+          <em>Omega</em>, <em>Decision Sciences</em>, among others.
+        </p>
+
+        <div class="interests-grid">
+          <div class="interests-card">
+            <h3>Methodological Interests</h3>
+            <ul>
+              <li>Big Data</li>
+              <li>Predictive Modeling</li>
+              <li>Ensemble Learning</li>
+              <li>Text Mining &amp; NLP</li>
+              <li>Recommender Systems</li>
+              <li>Deep Learning</li>
+              <li>Reinforcement Learning</li>
+            </ul>
+          </div>
+          <div class="interests-card">
+            <h3>Application Domains</h3>
+            <ul>
+              <li>Social Media</li>
+              <li>CRM (acquisition, churn, cross-selling)</li>
+              <li>Hospitality</li>
+              <li>Finance</li>
+              <li>Sports Analytics</li>
+              <li>Production &amp; Manufacturing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Research / Publications ── -->
+  <section id="research" class="section section-white">
+    <div class="container">
+      <h2 class="section-title">Research</h2>
+      <p class="section-intro">
+        My research lies at the interface of IT (databases), algorithms (machine learning, AI,
+        optimization, and econometrics models), and business applications. The main goal of data
+        analytics should be to use data to gain insight and ultimately improve business performance.
+      </p>
+    </div>
+  </section>
+
+  <section id="publications" class="section section-light">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+
+      <h3 class="subsection-title">Journal Articles</h3>
+      <ol class="pub-list" reversed>
+        <li>
+          <span class="pub-authors">Janssens, B., Schetgen, L., <strong>Bogaert, M.</strong>, Meire, M., &amp; Van den Poel, D.</span>
+          <span class="pub-year">(2023).</span>
+          <span class="pub-title">360 Degrees Rumor Detection: When Explanations Got Some Explaining To Do.</span>
+          <span class="pub-venue"><em>European Journal of Operational Research.</em></span>
+          <a href="https://raw.githubusercontent.com/MatthBogaert/MatthBogaert/main/Files/WorkingPaper_Rumors.pdf" target="_blank" rel="noopener" class="pub-link">[PDF]</a>
+        </li>
+        <li>
+          <span class="pub-authors"><strong>Bogaert, M.</strong>, &amp; Delaere, L.</span>
+          <span class="pub-year">(2023).</span>
+          <span class="pub-title">Ensemble Methods in Customer Churn Prediction: A Comparative Analysis of the State-of-the-Art.</span>
+          <span class="pub-venue"><em>Mathematics, 11</em>(5), 1137.</span>
+          <a href="https://www.mdpi.com/2227-7390/11/5/1137" target="_blank" rel="noopener" class="pub-link">[Link]</a>
+        </li>
+        <li>
+          <span class="pub-authors">Janssens, B., <strong>Bogaert, M.</strong>, Bagué, A., &amp; Van den Poel, D.</span>
+          <span class="pub-year">(2022).</span>
+          <span class="pub-title">B2Boost: Instance-dependent profit-driven modelling of B2B churn.</span>
+          <span class="pub-venue"><em>Annals of Operations Research,</em> 1–27.</span>
+          <a href="https://raw.githubusercontent.com/MatthBogaert/MatthBogaert/main/Files/Manuscript_R2.pdf" target="_blank" rel="noopener" class="pub-link">[PDF]</a>
+        </li>
+        <li>
+          <span class="pub-authors">Janssens, B., <strong>Bogaert, M.</strong>, &amp; Maton, M.</span>
+          <span class="pub-year">(2021).</span>
+          <span class="pub-title">Predicting the next Pogačar: a data analytical approach to detect young professional cycling talents.</span>
+          <span class="pub-venue"><em>Annals of Operations Research,</em> 1–32.</span>
+          <a href="https://raw.githubusercontent.com/MatthBogaert/MatthBogaert/main/Files/WorkingPaper_Cycling.pdf" target="_blank" rel="noopener" class="pub-link">[PDF]</a>
+        </li>
+        <li>
+          <span class="pub-authors">Janssens, B., <strong>Bogaert, M.</strong>, &amp; Van den Poel, D.</span>
+          <span class="pub-year">(2021).</span>
+          <span class="pub-title">Evaluating the influence of Airbnb listings' descriptions on demand.</span>
+          <span class="pub-venue"><em>International Journal of Hospitality Management, 99,</em> 103071.</span>
+          <a href="https://raw.githubusercontent.com/MatthBogaert/MatthBogaert/main/Files/WorkingPaper_IJHM.pdf" target="_blank" rel="noopener" class="pub-link">[PDF]</a>
+        </li>
+      </ol>
+
+      <div class="pub-more">
+        <a href="https://raw.githubusercontent.com/MatthBogaert/MatthBogaert/main/Files/CurriculumVitae_MatthiasBogaert_Long.pdf" target="_blank" rel="noopener" class="btn btn-primary">View Full CV</a>
+        <a href="https://scholar.google.com/citations?user=NhhYHUQAAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn-outline">Google Scholar Profile</a>
+        <a href="https://raw.githubusercontent.com/MatthBogaert/MatthBogaert/main/Files/phd_mb.pdf" target="_blank" rel="noopener" class="btn btn-outline">PhD Dissertation</a>
+      </div>
+
+      <h3 class="subsection-title" style="margin-top: 2.5rem;">Selected Conference Proceedings</h3>
+      <ol class="pub-list">
+        <li>
+          <span class="pub-authors">Baron, E., Janssens, B., &amp; <strong>Bogaert, M.</strong></span>
+          <span class="pub-year">(2023).</span>
+          <span class="pub-title">Bike2Vec: Vector Embedding Representations of Road Cycling Riders and Races.</span>
+          <span class="pub-venue"><em>arXiv preprint arXiv:2305.10471.</em></span>
+          <a href="https://arxiv.org/pdf/2305.10471.pdf" target="_blank" rel="noopener" class="pub-link">[PDF]</a>
+        </li>
+        <li>
+          <span class="pub-authors">Janssens, B., &amp; <strong>Bogaert, M.</strong></span>
+          <span class="pub-year">(2021).</span>
+          <span class="pub-title">Imputation of non-participated race results.</span>
+          <span class="pub-venue"><em>8th Workshop on Machine Learning and Data Mining for Sports Analytics, ECML/PKDD 2021.</em></span>
+          <a href="https://dtai.cs.kuleuven.be/events/MLSA21/papers/MLSA21_paper_janssens.pdf" target="_blank" rel="noopener" class="pub-link">[PDF]</a>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ── Teaching ── -->
+  <section id="teaching" class="section section-white">
+    <div class="container">
+      <h2 class="section-title">Teaching</h2>
+
+      <div class="teaching-grid">
+        <div class="teaching-card">
+          <h3>Current Courses</h3>
+          <ul class="course-list">
+            <li>
+              <span class="course-name">Social Media and Web Analytics</span>
+              <span class="course-inst">Ghent University</span>
+              <a href="https://studiegids.ugent.be/2020/EN/studiefiches/F000879.pdf" target="_blank" rel="noopener" class="course-link">Specifications →</a>
+            </li>
+            <li>
+              <span class="course-name">Advanced Predictive Analytics</span>
+              <span class="course-inst">Ghent University</span>
+              <a href="https://studiegids.ugent.be/2020/EN/studiefiches/F000882.pdf" target="_blank" rel="noopener" class="course-link">Specifications →</a>
+            </li>
+            <li>
+              <span class="course-name">Predictive and Prescriptive Analytics</span>
+              <span class="course-inst">Ghent University</span>
+              <a href="https://studiegids.ugent.be/2020/EN/studiefiches/F000801.pdf" target="_blank" rel="noopener" class="course-link">Specifications →</a>
+            </li>
+            <li>
+              <span class="course-name">Business Analytics and Big Data</span>
+              <span class="course-inst">University of Namur</span>
+              <a href="https://directory.unamur.be/teaching/courses/EINGM103" target="_blank" rel="noopener" class="course-link">Specifications →</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="teaching-card">
+          <h3>Previous Courses</h3>
+          <ul class="course-list">
+            <li>
+              <span class="course-name">Business Research Methods</span>
+              <span class="course-inst">University of Edinburgh</span>
+            </li>
+            <li>
+              <span class="course-name">Predictive Analytics and Modeling of Data</span>
+              <span class="course-inst">University of Edinburgh</span>
+            </li>
+            <li>
+              <span class="course-name">Data Mining</span>
+              <span class="course-inst">University of Edinburgh</span>
+            </li>
+            <li>
+              <span class="course-name">Principles of Database Management</span>
+              <span class="course-inst">KU Leuven</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Software ── -->
+  <section id="software" class="section section-light">
+    <div class="container">
+      <h2 class="section-title">Software</h2>
+      <div class="software-grid">
+
+        <div class="software-card">
+          <div class="software-badge r">R</div>
+          <h3>AggregateR</h3>
+          <p>An R package for aggregating data.</p>
+          <div class="software-links">
+            <a href="https://cran.r-project.org/web/packages/AggregateR/index.html" target="_blank" rel="noopener" class="btn btn-sm btn-outline">CRAN</a>
+            <a href="https://github.com/MatthBogaert/AggregateR" target="_blank" rel="noopener" class="btn btn-sm btn-outline">GitHub</a>
+          </div>
+        </div>
+
+        <div class="software-card">
+          <div class="software-badge r">R</div>
+          <h3>DecorateR</h3>
+          <p>An R implementation of the DECORATE ensemble algorithm.</p>
+          <div class="software-links">
+            <a href="https://cran.r-project.org/web/packages/DecorateR/index.html" target="_blank" rel="noopener" class="btn btn-sm btn-outline">CRAN</a>
+            <a href="https://github.com/MatthBogaert/DecorateR" target="_blank" rel="noopener" class="btn btn-sm btn-outline">GitHub</a>
+          </div>
+        </div>
+
+        <div class="software-card">
+          <div class="software-badge py">Python</div>
+          <h3>B2Boost</h3>
+          <p>Instance-dependent profit-driven B2B churn modelling. In collaboration with Dr. Bram Janssens.</p>
+          <div class="software-links">
+            <a href="https://github.com/bram-janssens/B2Boost" target="_blank" rel="noopener" class="btn btn-sm btn-outline">GitHub</a>
+          </div>
+        </div>
+
+        <div class="software-card">
+          <div class="software-badge py">Python</div>
+          <h3>empulse</h3>
+          <p>Profit-driven machine learning metrics and utilities. In collaboration with Shimanto Rahman.</p>
+          <div class="software-links">
+            <a href="https://pypi.org/project/empulse/" target="_blank" rel="noopener" class="btn btn-sm btn-outline">PyPI</a>
+            <a href="https://github.com/ShimantoRahman/empulse" target="_blank" rel="noopener" class="btn btn-sm btn-outline">GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Research Group ── -->
+  <section id="group" class="section section-white">
+    <div class="container">
+      <h2 class="section-title">Research Group</h2>
+
+      <div class="group-grid">
+        <div class="group-card">
+          <h3>Data Analytics – Ghent University</h3>
+          <p>
+            I work at the <strong>Research Group Data Analytics</strong> at the Faculty of Economics
+            and Business Administration of Ghent University. The group engages in teaching and
+            research on the use of data to improve and optimize business processes, based on
+            techniques such as statistics, data mining, and machine learning (e.g., deep learning
+            and reinforcement learning) and optimization.
+          </p>
+          <a href="https://research.ugent.be/web/person/matthias-bogaert-0/en" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:1rem;">Research Portal</a>
+        </div>
+
+        <div class="group-card">
+          <h3>CVAMO – Flanders Make</h3>
+          <p>
+            <strong>Cost and Value Analytics, Models &amp; Optimization (CVAMO)</strong> groups
+            10 professors and about 28 pre- or postdoctoral researchers from different departments
+            at the Faculty of Economics and Business Administration (Ghent University). CVAMO is a
+            core lab in the Strategic Research Center
+            <a href="http://www.flandersmake.be/" target="_blank" rel="noopener">Flanders Make</a>,
+            that groups research labs from all Flemish universities to support companies in the
+            manufacturing industry in developing and optimizing products and production processes.
+          </p>
+          <a href="http://www.flandersmake.be/" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:1rem;">Flanders Make</a>
+        </div>
+      </div>
+
+      <div class="group-photo-wrap">
+        <img
+          src="https://raw.githubusercontent.com/MatthBogaert/MatthBogaert/main/Files/Group_Picture_Nov_2025_UGent_Data_Analytics.jpg"
+          alt="UGent Data Analytics Research Group – November 2025"
+          class="group-photo"
+          loading="lazy"
+        />
+        <p class="group-photo-caption">
+          UGent Data Analytics Research Group (November 2025). Bottom row (L→R): Prof. Dr. Dirk Van den Poel,
+          Prof. Dr. Dries Benoit, <strong>Prof. Dr. Matthias Bogaert</strong>, Brammert Termont,
+          Wannes Janssens, Dylan Van Mulders, Xiao Wang, Yaël De Rocker.
+          Top row (L→R): Shimanto Rahman, Nathan Markx, Lukas De Kerpel, Toon Van Camp,
+          Matteo Ballegeer, Simon De Lange.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ── -->
+  <section id="contact" class="section section-dark">
+    <div class="container contact-inner">
+      <h2 class="section-title light">Get in Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <a href="mailto:Matthias.Bogaert@UGent.be" class="contact-value">Matthias.Bogaert@UGent.be</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Research Portal</span>
+          <a href="https://research.ugent.be/web/person/matthias-bogaert-0/en" target="_blank" rel="noopener" class="contact-value">UGent Research Portal</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Google Scholar</span>
+          <a href="https://scholar.google.com/citations?user=NhhYHUQAAAAJ&hl=en" target="_blank" rel="noopener" class="contact-value">Scholar Profile</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/matthias-bogaert-79a28148" target="_blank" rel="noopener" class="contact-value">matthias-bogaert-79a28148</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">X / Twitter</span>
+          <a href="https://x.com/MatthBogaert" target="_blank" rel="noopener" class="contact-value">@MatthBogaert</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">GitHub</span>
+          <a href="https://github.com/MatthBogaert" target="_blank" rel="noopener" class="contact-value">MatthBogaert</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Matthias Bogaert · Ghent University</p>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+
+    // Active nav link on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 80) current = s.id;
+      });
+      navLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    });
+  </script>
+</body>
+</html>

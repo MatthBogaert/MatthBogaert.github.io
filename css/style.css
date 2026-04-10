@@ -152,29 +152,6 @@ header {
   margin-bottom: 1.25rem;
 }
 
-.footer-logos {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 1.25rem;
-  margin-top: 0.75rem;
-  flex-wrap: wrap;
-}
-
-.footer-logo {
-  height: 8px;
-  width: auto;
-  object-fit: contain;
-  filter: brightness(0) invert(1);
-  opacity: 0.4;
-  transition: opacity 0.15s;
-}
-.footer-logo:hover { opacity: 0.7; }
-
-.footer-logo--invert {
-  filter: brightness(0) invert(1);
-}
-
 .hero-social {
   display: flex;
   gap: 1rem;

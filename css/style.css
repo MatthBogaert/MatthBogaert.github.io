@@ -358,6 +358,15 @@ header {
   margin-bottom: 0.6rem;
 }
 
+.project-card h3 a {
+  color: var(--primary);
+  text-decoration: none;
+}
+.project-card h3 a:hover {
+  text-decoration: underline;
+  color: var(--primary-light);
+}
+
 .project-card p {
   font-size: 0.9rem;
   color: var(--text-muted);

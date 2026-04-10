@@ -337,6 +337,33 @@ header {
 /* ─────────────────────────────────────────────
    Teaching
 ───────────────────────────────────────────── */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: var(--bg-white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  border-top: 3px solid var(--accent);
+}
+
+.project-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.6rem;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
 .teaching-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

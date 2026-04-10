@@ -152,25 +152,26 @@ header {
   margin-bottom: 1.25rem;
 }
 
-.hero-logos {
+.footer-logos {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 0.75rem;
   flex-wrap: wrap;
 }
 
-.hero-logo {
-  height: 20px;
+.footer-logo {
+  height: 14px;
   width: auto;
   object-fit: contain;
   filter: brightness(0) invert(1);
-  opacity: 0.45;
+  opacity: 0.35;
   transition: opacity 0.15s;
 }
-.hero-logo:hover { opacity: 0.75; }
+.footer-logo:hover { opacity: 0.65; }
 
-.hero-logo--dark {
+.footer-logo--invert {
   filter: brightness(0) invert(1);
 }
 
@@ -574,7 +575,7 @@ footer {
     text-align: center;
     gap: 1.5rem;
   }
-  .hero-links, .hero-social, .hero-logos { justify-content: center; }
+  .hero-links, .hero-social { justify-content: center; }
 
   .hero-text h1 { font-size: 1.75rem; }
 
